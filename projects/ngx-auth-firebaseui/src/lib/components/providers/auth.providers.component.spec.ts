@@ -12,8 +12,8 @@ import {AngularFireModule} from '@angular/fire/compat';
 import {BehaviorSubject} from 'rxjs';
 import {AngularFirestore} from '@angular/fire/compat/firestore';
 import {AngularFireAuth} from '@angular/fire/compat/auth';
-import {NgxAuthFirebaseUIConfigToken} from '../../ngx-auth-firebase-u-i.module';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import {NgxAuthFirebaseUIConfigToken} from "../../tokens";
 
 describe('AuthProvidersComponent', function() {
   let de: DebugElement;

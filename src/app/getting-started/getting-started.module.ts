@@ -15,7 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import {GettingStartedRoutingModule} from './getting-started-routing.module';
 import {MarkdownModule} from 'ngx-markdown';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import {NgxAuthFirebaseUIModule} from 'ngx-auth-firebaseui';
+import {NgxAuthFirebaseUIModule} from 'projects/ngx-auth-firebaseui/src/public-api';
 
 @NgModule({
   imports: [
